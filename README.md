@@ -17,6 +17,8 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
 
 1. Overall File
     * Run the Python notebook on Google Collab. Particular instructions are mentioned in notebook
+         - Mount the Google Drive. Update the root address. This will be root directory.
+         - Computational Graph, Summary and models would be saved here for Tensorboard Visualization
 2. Test File
     * Run the Python notebook on Google Collab. Particular instructions are mentioned in notebook
 

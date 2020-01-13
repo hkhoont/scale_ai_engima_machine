@@ -16,18 +16,18 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
 ## How to run the files and get the results ##
 
 1. Overall File
-    * Run the Python notebook on Google Collab. Particular instructions are mentioned in notebook
-         - Mount the Google Drive. Update the root address. This will be root directory.
-         - Computational Graph, Summary and models would be saved here for Tensorboard Visualization
+    * Run the Python notebook on Google Collab. Particular instructions are mentioned in the notebook
+         - Mount Google Drive. Update the root address. This will be the root directory.
+         - Computational Graph, Summary, and models would be saved here for Tensorboard Visualization
 2. Test File
-    * Run the Python notebook on Google Collab. Particular instructions are mentioned in notebook
+    * Run the Python notebook on Google Collab. Particular instructions are mentioned in the notebook
 
 ## Model Building and Coding ##
 ### Data Engineering ###
 
-- The decryption of the first letter remains same for a particular varibale.
-- Therefore, there is no need to learn the key for the message becuase the Enigma machine is already set to a particular configuration
-- The data generated does not need any data cleaning and pre-preocessing since it is perfect simulated data
+- The decryption of the first letter remains the same for a particular variable.
+- Therefore, there is no need to learn the key for the message because the Enigma machine is already set to a particular configuration
+- The data generated does not need any data cleaning and pre-processing since it is perfect simulated data
 
 ### Model ###
 
@@ -52,6 +52,21 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
 - Download the log files form the [link](https://drive.google.com/open?id=17WO-mzmo754fUaYQYuDFkP-EZv_W0kKj) and run it on local Tensorboard
 - Log files and visualization are also uploaded to Git Repo
 ## Epoch,Batch,Iteration ##
-- Since we are working on simulated data. For each batch we can generate new simulated data.
-- This has allowed us to just iterate over new batch of data
-- Since epoch is the number of times model is trained over the data. Hence it be regarded as #Epoch=1
+- Since we are working on simulated data. For each batch, we can generate new simulated data.
+- This has allowed us to just iterate over a batch of data
+- #Epoch=1 because epoch is the number of times model is trained over the data
+
+## Hyperparameter tuning
+- Popularly there are 3 techniques to optimize hyperparameters of the model
+- **Grid Search**
+    - High computation is required, especially when the grid becomes higher-dimensional. 
+    - It does not consider any improvements over any parameters to anchor the tuning. 
+    - Brute force method
+- **Random Search**
+    - Many times random search gives better result
+    - However, this is too random for the conclusion and hope for the best parameters
+    - It becomes difficult when the number of hyperparameters increases
+- **Bayesian Optimization**
+    - Bayesian Optimization based on Gaussian process
+    - [Tutorial on Bayesian Optimization](https://arxiv.org/pdf/1012.2599.pdf)
+- I used a bit of all three techniques, concepts based on learning theory and previous experiences of training deep learning models to hyperparameter tuning

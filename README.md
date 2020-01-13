@@ -8,10 +8,12 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
 ## Contents of the repo ##
 
 1. Readme file
-2. Helper Functions provided [cipher_take_home_py]()
-3. Jupyter Notebook - Overall | [Google Collab Notebook](https://colab.research.google.com/drive/1uYrSfZqJTLRHxzXmY-3TBrpzX2ww3_GY) | [main_file.ipynb]()
-4. Jupyter Notebook - Only testing by load saved model | [Google Collab Notebook](https://colab.research.google.com/drive/10wDGdFqsf93PONiIFHibaZUFzbxIQfHh) | [test_file.ipynb]()
-
+2. Helper Functions provided [cipher_take_home.py](https://github.com/hkhoont/scale_ai_engima_machine/blob/master/cipher_take_home.py)
+3. Jupyter Notebook - Overall | [Google Collab Notebook](https://colab.research.google.com/drive/1uYrSfZqJTLRHxzXmY-3TBrpzX2ww3_GY) | [main_file.ipynb](https://github.com/hkhoont/scale_ai_engima_machine/blob/master/main_file.ipynb)
+4. Jupyter Notebook - Only testing by load saved model | [Google Collab Notebook](https://colab.research.google.com/drive/10wDGdFqsf93PONiIFHibaZUFzbxIQfHh) | [test_file.ipynb](https://github.com/hkhoont/scale_ai_engima_machine/blob/master/test_file.ipynb)
+5. Tensorboard Log files
+6. Tensorboard Image files
+7. Saved model
 
 ## How to run the files and get the results ##
 
@@ -30,7 +32,6 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
 - The data generated does not need any data cleaning and pre-processing since it is perfect simulated data
 
 ### Model ###
-
 1. We will try to model this problem character by character prediction
 2. Since the decryption of a particular character depends on the previous character and its decryption. 
 3. Such a situation is ideally modeled using sequence to sequence neural networks

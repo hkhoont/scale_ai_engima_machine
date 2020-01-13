@@ -20,6 +20,12 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
 2. Test File
     * Run the Python notebook on Google Collab. Particular instructions are mentioned in notebook
 
+## Data Engineering ##
+
+- The decryption of the first letter remains same for a particular varibale.
+- Therefore, there is no need to learn the key for the message becuase the Enigma machine is already set to a particular configuration
+- The data generated does not need any data cleaning and pre-preocessing since it is perfect simulated data
+
 ## Model ##
 
 1)   *(done)*

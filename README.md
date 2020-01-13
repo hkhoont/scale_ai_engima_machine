@@ -9,8 +9,8 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
 
 1. Readme file
 2. Helper Functions provided [cipher_take_home_py]()
-3. Jupyter Notebook - Overall: [Google Collab Notebook]() [main_file.ipynb]()
-4. Jupyter Notebook - Only testing by load saved model: [Google Collab Notebook]() [test_file.ipynb]()
+3. Jupyter Notebook - Overall | [Google Collab Notebook](https://colab.research.google.com/drive/1uYrSfZqJTLRHxzXmY-3TBrpzX2ww3_GY) | [main_file.ipynb]()
+4. Jupyter Notebook - Only testing by load saved model | [Google Collab Notebook](https://colab.research.google.com/drive/10wDGdFqsf93PONiIFHibaZUFzbxIQfHh) | [test_file.ipynb]()
 
 
 ## How to run the files and get the results ##

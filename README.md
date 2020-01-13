@@ -25,10 +25,10 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
     * Run the Python notebook on Google Collab. Particular instructions are mentioned in the notebook
     
 ## Requirements ##
--  'py-enigma'
--  'faker'
--  'PyTorch'
--  'hyperopt'
+-  `py-enigma`
+-  `faker`
+-  `PyTorch`
+-  `hyperopt`
 
 ## Model Building and Coding ##
 ### Data Engineering ###

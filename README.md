@@ -47,3 +47,7 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
     - Stacked LSTM is a good choice 
     - First, considering the learned key format in latent variables would be used throughout the decryption of the string
     - Second, LSTM handles vanishing gradient problem much better than similar networks RNN and GRU units
+    
+## Model visualization in Tensorboard ## 
+- Download the log files form the [link](https://drive.google.com/open?id=1-2Up3k7sqm__4FxeTZhuhRjrMLIyNn8p) and run it on local Tensorboard
+- Log files and visualization are also uploaded to Git Repo ##

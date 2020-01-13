@@ -49,5 +49,9 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
     - Second, LSTM handles vanishing gradient problem much better than similar networks RNN and GRU units
     
 ## Model visualization in Tensorboard ## 
-- Download the log files form the [link](https://drive.google.com/open?id=1-2Up3k7sqm__4FxeTZhuhRjrMLIyNn8p) and run it on local Tensorboard
-- Log files and visualization are also uploaded to Git Repo ##
+- Download the log files form the [link](https://drive.google.com/open?id=17WO-mzmo754fUaYQYuDFkP-EZv_W0kKj) and run it on local Tensorboard
+- Log files and visualization are also uploaded to Git Repo
+## Epoch,Batch,Iteration ##
+- Since we are working on simulated data. For each batch we can generate new simulated data.
+- This has allowed us to just iterate over new batch of data
+- Since epoch is the number of times model is trained over the data. Hence it be regarded as #Epoch=1

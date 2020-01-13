@@ -41,8 +41,6 @@ You are expected to achieve a score of 0.9, feel free to predict longer sequence
     - Engima decryption is highly dependent if you can learn the key formating in the machine. 
     - These keys are distributed in advance, which gives the initial configuration of the machine to decrypt the message
     - Key list here is pre-defined in the `config` function
-    - These models range from deep RNN, GRU, LSTM to deep attention based Encoder-Decoder models
-    - Attention-based networks have been proved to a lot better than other encoder-decoder networks
 2. But with a constraint on ***Number of parameters<60K (Capacity of the network)***, 
     - Stacked LSTM is a good choice 
     - First, considering the learned key format in latent variables would be used throughout the decryption of the string
